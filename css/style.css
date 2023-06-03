@@ -1,0 +1,100 @@
+header .navbar img {
+  height: 5rem; }
+
+header .navbar li {
+  padding: 1rem; }
+
+header .navbar a {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.2rem;
+  color: #b2b2b2;
+  padding: 0; }
+  header .navbar a:hover {
+    border-radius: 20px;
+    background-color: #a6c83e;
+    color: #575756; }
+  header .navbar a:active {
+    border-radius: 20px;
+    background-color: #00523d;
+    color: #a6c83e; }
+
+header .navbar-toggler {
+  border: none; }
+  header .navbar-toggler:focus {
+    box-shadow: none; }
+
+header .navfooter li {
+  list-style-type: none;
+  padding-bottom: 2rem;
+  text-align: justify; }
+
+header .navfooter a {
+  color: #dadada;
+  font-size: 1.5rem; }
+  header .navfooter a:hover {
+    color: #a6c83e; }
+  header .navfooter a:active {
+    color: #dadada; }
+
+main .caja-slider {
+  width: 95vw;
+  margin: 1rem auto; }
+
+main section .tituloUno-verde-SF {
+  width: 100%;
+  color: #00523d;
+  font-family: 'Manrope', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  padding: 3rem 1rem; }
+
+main section .flex-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 4rem; }
+  main section .flex-horizontal .caja-24 {
+    width: 24rem; }
+  main section .flex-horizontal .flex-vertical {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; }
+    main section .flex-horizontal .flex-vertical a .imagen {
+      width: 100%; }
+    main section .flex-horizontal .flex-vertical .tituloTres-verde-SF {
+      width: 100%;
+      color: #00523d;
+      font-family: 'Manrope', sans-serif;
+      font-size: 2rem;
+      text-align: center;
+      padding: 2rem 0 1rem 0; }
+    main section .flex-horizontal .flex-vertical .parrafoUno {
+      width: 100%;
+      color: #b2b2b2;
+      font-family: 'Kaisei Opti', serif;
+      font-size: 1.2rem;
+      text-align: justify;
+      padding: 1rem; }
+
+main .destacado-verde {
+  width: 100vw;
+  padding: 8rem 2rem;
+  background-color: #a6c83e; }
+  main .destacado-verde .tituloUno-verde-S {
+    width: 100%;
+    color: #00523d;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 4rem;
+    text-align: center; }
+  main .destacado-verde .tituloTres-verde-S {
+    width: 100%;
+    color: #00523d;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 2rem;
+    text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
