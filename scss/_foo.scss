@@ -1,0 +1,64 @@
+footer {
+    .pie {
+        margin-top: 2rem;
+        width: 100vw;
+        padding: 2rem;
+        background-color: #575756;
+    }
+    .flex-horizontal-pie {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 5rem;
+        .caja-18 {
+            width: 18rem;
+            .imagen {
+                width: 100%;
+            }
+            .parrafoUno-SF {
+                width: 100%;
+                color: #dadada;
+                font-family: 'Manrope', sans-serif;
+                font-size: 1.2rem;
+            }
+            .tituloCuatro-blanco-SF {
+                width: 100%;
+                color: #dadada;
+                font-family: 'Manrope', sans-serif;
+                font-size: 1.5rem;
+                padding: 0 0 1rem 0;
+            }
+            .parrafoDos-SF-bold {
+                width: 100%;
+                color: #dadada;
+                font-family: 'Manrope', sans-serif;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+            .parrafoDos-SF-light {
+                width: 100%;
+                color: #dadada;
+                font-family: 'Manrope', sans-serif;
+                font-size: 1.2rem;
+                font-weight: lighter;
+            }
+            .navfooter {
+                li {
+                list-style-type: none;
+                padding-bottom: 2rem;
+                text-align: justify;
+                a {
+                    color: #dadada;
+                    font-size: 1.5rem;
+                    &:hover {
+                        color: #a6c83e;
+                        }
+                    }
+                    &:active {
+                        color: #dadada;
+                    }
+                }
+            }
+        }
+    }
+}
