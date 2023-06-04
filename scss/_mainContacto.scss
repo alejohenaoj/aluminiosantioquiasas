@@ -1,0 +1,69 @@
+main {
+    .destacado-tit-cnt {
+        width: 100vw;
+        padding: 4rem 1rem;
+        background-color: $colVer2;
+        .tituloTres-SF-cnt {
+            width: 100%;
+            color: $colVer1;
+            font-family: 'Manrope', sans-serif;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    .destacado-cnt {
+        width: 100vw;
+        padding: 4rem 1rem 2rem 1rem;
+        background-color: #ffff;
+    }
+    .grilla-cnt {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: 0.8fr 1fr;
+        grid-template-rows: repeat(4, 0.5fr);
+        grid-template-areas:
+        "t1 p1"
+        "t2 p2"
+        "t3 p3"
+        "t4 p4";
+        .t1 {
+            grid-area: t1;
+        }
+        .t2 {
+            grid-area: t2;
+        }
+        .t3 {
+            grid-area: t3;
+        }
+        .t4 {
+            grid-area: t4;
+        }
+        .p1 {
+            grid-area: p1;
+        }
+        .p2 {
+            grid-area: p2;
+        }
+        .p3 {
+            grid-area: p3;
+        }
+        .p4 {
+            grid-area: p4;
+        }
+        .tituloTres-SF-cnt-cnt {
+            width: 100%;
+            color: $colVer1;
+            font-family: 'Manrope', sans-serif;
+            font-size: 1.5rem;
+            text-align: right;
+        }
+        .parrafoDos-SFl-cnt {
+            width: 100%;
+            color: $colGri3;
+            font-family: 'Manrope', sans-serif;
+            font-size: 1.5rem;
+            font-weight: lighter;
+            text-align: left;
+        }
+    }
+}

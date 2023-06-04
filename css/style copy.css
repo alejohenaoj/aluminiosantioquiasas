@@ -62,7 +62,7 @@
 .caja { /*BORRAR*/
     border: solid 1px #a6c83e;
 }
-.caja-general { 
+.caja-navbar { 
     width: 90vw;
     margin: 1rem auto;
 }

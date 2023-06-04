@@ -1,0 +1,46 @@
+main {
+    .destacado-tit-pdu {
+        width: 100vw;
+        padding: 4rem 1rem;
+        background-color: $colVer2;
+        .tituloTres-SF-pdu {
+            width: 100%;
+            color: $colVer1;
+            font-family: 'Manrope', sans-serif;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    .flex-horPdu-pdu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 4rem;
+        .caja-pdu {
+            border: solid 1px $colVer2;
+        }
+        .card-fam-pdu {
+            width: 20rem;
+            margin-top: 2rem;
+            a {
+                .img-cards-fam-pdu { 
+                    width: 100%;
+                }
+            }
+        }
+        .flex-verFam-pdu {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            .tituloTres-SF-cardfam-pdu {
+                width: 100%;
+                color: $colVer1;
+                font-family: 'Manrope', sans-serif;
+                font-size: 1.5rem;
+                text-align: center;
+                padding: 1rem;
+            }
+        }
+    }
+}

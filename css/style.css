@@ -1,92 +1,89 @@
-header .caja-general {
+header .caja-navbar {
   width: 90vw;
   margin: 1rem auto; }
 
-header .navbar img {
+header .navbar .container-fluid .navbar-brand img {
   height: 5rem; }
 
-header .navbar li {
+header .navbar .container-fluid .navbar-toggler {
+  border: none; }
+  header .navbar .container-fluid .navbar-toggler img {
+    height: 5rem; }
+  header .navbar .container-fluid .navbar-toggler:focus {
+    box-shadow: none; }
+
+header .navbar .container-fluid .collapse .navbar-nav li {
   padding: 1rem; }
 
-header .navbar a {
+header .navbar .container-fluid .collapse .navbar-nav a {
   font-family: 'Manrope', sans-serif;
   font-size: 1.2rem;
   color: #b2b2b2;
-  padding: 0; }
-  header .navbar a:hover {
+  padding: 0 1rem; }
+  header .navbar .container-fluid .collapse .navbar-nav a:hover {
     border-radius: 20px;
     background-color: #a6c83e;
     color: #575756; }
-  header .navbar a:active {
+  header .navbar .container-fluid .collapse .navbar-nav a:active {
     border-radius: 20px;
     background-color: #00523d;
     color: #a6c83e; }
 
-header .navbar-toggler {
-  border: none; }
-  header .navbar-toggler:focus {
-    box-shadow: none; }
-
-footer .pie {
+footer .caja-footer {
   margin-top: 2rem;
   width: 100vw;
   padding: 2rem;
   background-color: #575756; }
 
-footer .flex-horizontal-pie {
+footer .flex-horFoo {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   column-gap: 5rem; }
-  footer .flex-horizontal-pie .caja-18 {
+  footer .flex-horFoo .caja18-foo {
     width: 18rem; }
-    footer .flex-horizontal-pie .caja-18 .imagen {
+    footer .flex-horFoo .caja18-foo .imgFoo {
       width: 100%; }
-    footer .flex-horizontal-pie .caja-18 .parrafoUno-SF {
+    footer .flex-horFoo .caja18-foo .parrafoUno-SF-foo {
       width: 100%;
       color: #dadada;
       font-family: 'Manrope', sans-serif;
       font-size: 1.2rem; }
-    footer .flex-horizontal-pie .caja-18 .tituloCuatro-blanco-SF {
+    footer .flex-horFoo .caja18-foo .tituloCuat-SF-foo {
       width: 100%;
       color: #dadada;
       font-family: 'Manrope', sans-serif;
       font-size: 1.5rem;
       padding: 0 0 1rem 0; }
-    footer .flex-horizontal-pie .caja-18 .parrafoDos-SF-bold {
+    footer .flex-horFoo .caja18-foo .parrafoDos-SFb-foo {
       width: 100%;
       color: #dadada;
       font-family: 'Manrope', sans-serif;
       font-size: 1.2rem;
       font-weight: bold; }
-    footer .flex-horizontal-pie .caja-18 .parrafoDos-SF-light {
+    footer .flex-horFoo .caja18-foo .parrafoDos-SFl-foo {
       width: 100%;
       color: #dadada;
       font-family: 'Manrope', sans-serif;
       font-size: 1.2rem;
       font-weight: lighter; }
-    footer .flex-horizontal-pie .caja-18 .navfooter li {
+    footer .flex-horFoo .caja18-foo .navfooter li {
       list-style-type: none;
       padding-bottom: 2rem;
       text-align: justify; }
-      footer .flex-horizontal-pie .caja-18 .navfooter li a {
+      footer .flex-horFoo .caja18-foo .navfooter li a {
         color: #dadada;
         font-size: 1.5rem; }
-        footer .flex-horizontal-pie .caja-18 .navfooter li a:hover {
+        footer .flex-horFoo .caja18-foo .navfooter li a:hover {
           color: #a6c83e; }
-      footer .flex-horizontal-pie .caja-18 .navfooter li:active {
-        color: #dadada; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+        footer .flex-horFoo .caja18-foo .navfooter li a:active {
+          color: #dadada; }
 
 main .caja-slider {
   width: 95vw;
   margin: 1rem auto; }
 
-main .tituloUno-verde-SF {
+main .tituloUno-SF-idx {
   width: 100%;
   color: #00523d;
   font-family: 'Manrope', sans-serif;
@@ -94,28 +91,28 @@ main .tituloUno-verde-SF {
   text-align: center;
   padding: 3rem 1rem; }
 
-main .flex-horizontal {
+main .flex-horMat-idx {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 4rem; }
-  main .flex-horizontal .caja-24 {
+  main .flex-horMat-idx .caja24-idx {
     width: 24rem; }
-  main .flex-horizontal .flex-vertical {
+  main .flex-horMat-idx .flex-verMat-idx {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center; }
-    main .flex-horizontal .flex-vertical a imagen {
+    main .flex-horMat-idx .flex-verMat-idx a .imgMat {
       width: 100%; }
-    main .flex-horizontal .flex-vertical .tituloTres-verde-SF {
+    main .flex-horMat-idx .flex-verMat-idx .tituloTres-SF-mat-idx {
       width: 100%;
       color: #00523d;
       font-family: 'Manrope', sans-serif;
       font-size: 2rem;
       text-align: center;
       padding: 2rem 0 1rem 0; }
-    main .flex-horizontal .flex-vertical .parrafoUno {
+    main .flex-horMat-idx .flex-verMat-idx .parrafo-S-mat {
       width: 100%;
       color: #b2b2b2;
       font-family: 'Kaisei Opti', serif;
@@ -123,38 +120,45 @@ main .flex-horizontal {
       text-align: justify;
       padding: 1rem; }
 
-main .destacado-verde {
+main .destacado-frase-idx {
   width: 100vw;
   padding: 8rem 2rem;
   background-color: #a6c83e; }
-  main .destacado-verde .tituloDos-verde-S {
+  main .destacado-frase-idx .tituloDos-S-fra {
     width: 100%;
     color: #00523d;
     font-family: 'Kaisei Opti', serif;
     font-size: 3rem;
     text-align: center; }
-  main .destacado-verde .tituloTres-verde-S {
+  main .destacado-frase-idx .tituloTres-S-fra {
     width: 100%;
     color: #00523d;
     font-family: 'Kaisei Opti', serif;
     font-size: 2rem;
     text-align: center; }
 
-main .flex-vertical {
+main .flex-verCnt-idx {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center; }
-  main .flex-vertical .caja-55 {
+  main .flex-verCnt-idx .tituloUno-SF-cnt-idx {
+    width: 100%;
+    color: #00523d;
+    font-family: 'Manrope', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem 1rem; }
+  main .flex-verCnt-idx .caja55-idx {
     width: 55vw;
     margin-bottom: 2rem; }
-    main .flex-vertical .caja-55 .parrafoDos {
+    main .flex-verCnt-idx .caja55-idx .parrafo-S-cnt {
       width: 100%;
       color: #b2b2b2;
       font-family: 'Kaisei Opti', serif;
       font-size: 1.2rem;
       text-align: center; }
-  main .flex-vertical .boton a {
+  main .flex-verCnt-idx .boton-cnt-idx a {
     text-decoration: none;
     width: 100%;
     color: #b2b2b2;
@@ -162,54 +166,54 @@ main .flex-vertical {
     font-size: 1.2rem;
     text-align: center;
     padding: 0 2rem; }
-    main .flex-vertical .boton a:hover {
+    main .flex-verCnt-idx .boton-cnt-idx a:hover {
       background-color: #a6c83e;
       border-radius: 20px;
       color: #575756; }
-    main .flex-vertical .boton a:active {
+    main .flex-verCnt-idx .boton-cnt-idx a:active {
       border-radius: 20px;
       background-color: #00523d;
       color: #a6c83e; }
 
-main .caja-75-main {
+main .caja75-QSo {
   width: 75vw;
   margin: 1rem auto; }
 
-main .flex-horizontal {
+main .flex-horTit-QSo {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 4rem; }
-  main .flex-horizontal .tituloTres-verde-S-somos {
+  main .flex-horTit-QSo .tituloDos-S-Tit-QSo {
     width: 100%;
     color: #00523d;
     font-family: 'Kaisei Opti', serif;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center; }
-  main .flex-horizontal .caja-70 {
+  main .flex-horTit-QSo .caja70-imgEqu {
     width: 70vw; }
-    main .flex-horizontal .caja-70 .imagen-equipo {
+    main .flex-horTit-QSo .caja70-imgEqu .img-equipo {
       width: 100%;
       margin: 1.5rem auto; }
-  main .flex-horizontal .flex-horizontal {
+  main .flex-horTit-QSo .flex-horMisVis-QSo {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 4rem; }
-    main .flex-horizontal .flex-horizontal .caja-24-somos {
-      width: 24rem; }
-    main .flex-horizontal .flex-horizontal .flex-vertical {
+    main .flex-horTit-QSo .flex-horMisVis-QSo .caja30-misVis-QSo {
+      width: 30rem; }
+    main .flex-horTit-QSo .flex-horMisVis-QSo .flex-verMisVis-QSo {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
       align-items: center; }
-      main .flex-horizontal .flex-horizontal .flex-vertical .tituloTres-verde-SF-somos {
+      main .flex-horTit-QSo .flex-horMisVis-QSo .flex-verMisVis-QSo .tituloTres-SF-misVis {
         width: 100%;
         color: #00523d;
         font-family: 'Manrope', sans-serif;
         font-size: 2rem;
         text-align: center; }
-      main .flex-horizontal .flex-horizontal .flex-vertical .parrafoUno {
+      main .flex-horTit-QSo .flex-horMisVis-QSo .flex-verMisVis-QSo .parrafo-S-misVis {
         width: 100%;
         color: #b2b2b2;
         font-family: 'Kaisei Opti', serif;
@@ -217,89 +221,135 @@ main .flex-horizontal {
         text-align: justify;
         padding: 1rem; }
 
-main .destacado-verde-contacto {
+main .destacado-tit-cnt {
   width: 100vw;
   padding: 4rem 1rem;
   background-color: #a6c83e; }
-  main .destacado-verde-contacto .tituloTres-verde-SF-somos {
-    width: 100%;
-    color: #00523d;
-    font-family: 'Manrope', sans-serif;
-    font-size: 2rem;
-    text-align: center; }
-  main .destacado-verde-contacto .flex-horizontal {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 4rem; }
-    main .destacado-verde-contacto .flex-horizontal .caja {
-      border: solid 1px #a6c83e; }
-    main .destacado-verde-contacto .flex-horizontal .flex-vertical {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      align-items: center; }
-    main .destacado-verde-contacto .flex-horizontal .card-familias {
-      width: 20rem;
-      margin-top: 2rem; }
-      main .destacado-verde-contacto .flex-horizontal .card-familias .imagen-cards {
-        width: 100%; }
-      main .destacado-verde-contacto .flex-horizontal .card-familias .tituloTres-verde-SF-card {
-        width: 100%;
-        color: #00523d;
-        font-family: 'Manrope', sans-serif;
-        font-size: 1.5rem;
-        text-align: center;
-        padding: 1rem; }
-
-main .destacado-verde-contacto {
-  width: 100vw;
-  padding: 4rem 1rem;
-  background-color: #a6c83e; }
-  main .destacado-verde-contacto .tituloTres-verde-SF-somos {
+  main .destacado-tit-cnt .tituloTres-SF-cnt {
     width: 100%;
     color: #00523d;
     font-family: 'Manrope', sans-serif;
     font-size: 2rem;
     text-align: center; }
 
-main .grilla {
+main .destacado-cnt {
+  width: 100vw;
+  padding: 4rem 1rem 2rem 1rem;
+  background-color: #ffff; }
+
+main .grilla-cnt {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: 0.8fr 1fr;
   grid-template-rows: repeat(4, 0.5fr);
   grid-template-areas: "t1 p1" "t2 p2" "t3 p3" "t4 p4"; }
-
-main .destacado-blanco-contacto {
-  width: 100vw;
-  padding: 4rem 1rem 2rem 1rem;
-  background-color: #ffff; }
-  main .destacado-blanco-contacto .t1 {
+  main .grilla-cnt .t1 {
     grid-area: t1; }
-  main .destacado-blanco-contacto .t2 {
+  main .grilla-cnt .t2 {
     grid-area: t2; }
-  main .destacado-blanco-contacto .t3 {
+  main .grilla-cnt .t3 {
     grid-area: t3; }
-  main .destacado-blanco-contacto .t4 {
+  main .grilla-cnt .t4 {
     grid-area: t4; }
-  main .destacado-blanco-contacto .p1 {
+  main .grilla-cnt .p1 {
     grid-area: p1; }
-  main .destacado-blanco-contacto .p2 {
+  main .grilla-cnt .p2 {
     grid-area: p2; }
-  main .destacado-blanco-contacto .p3 {
+  main .grilla-cnt .p3 {
     grid-area: p3; }
-  main .destacado-blanco-contacto .p4 {
+  main .grilla-cnt .p4 {
     grid-area: p4; }
-  main .destacado-blanco-contacto .tituloTres-verde-SF-contacto {
+  main .grilla-cnt .tituloTres-SF-cnt-cnt {
     width: 100%;
     color: #00523d;
     font-family: 'Manrope', sans-serif;
     font-size: 1.5rem;
     text-align: right; }
-  main .destacado-blanco-contacto .parrafoDos-SF-contacto-light {
+  main .grilla-cnt .parrafoDos-SFl-cnt {
     width: 100%;
     color: #b2b2b2;
     font-family: 'Manrope', sans-serif;
     font-size: 1.5rem;
     font-weight: lighter;
     text-align: left; }
+
+main .destacado-tit-pdu {
+  width: 100vw;
+  padding: 4rem 1rem;
+  background-color: #a6c83e; }
+  main .destacado-tit-pdu .tituloTres-SF-pdu {
+    width: 100%;
+    color: #00523d;
+    font-family: 'Manrope', sans-serif;
+    font-size: 2rem;
+    text-align: center; }
+
+main .flex-horPdu-pdu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 4rem; }
+  main .flex-horPdu-pdu .caja-pdu {
+    border: solid 1px #a6c83e; }
+  main .flex-horPdu-pdu .card-fam-pdu {
+    width: 20rem;
+    margin-top: 2rem; }
+    main .flex-horPdu-pdu .card-fam-pdu a .img-cards-fam-pdu {
+      width: 100%; }
+  main .flex-horPdu-pdu .flex-verFam-pdu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; }
+    main .flex-horPdu-pdu .flex-verFam-pdu .tituloTres-SF-cardfam-pdu {
+      width: 100%;
+      color: #00523d;
+      font-family: 'Manrope', sans-serif;
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 1rem; }
+
+main .destacado-tit-ref {
+  width: 100vw;
+  padding: 4rem 1rem;
+  background-color: #a6c83e; }
+  main .destacado-tit-ref .tituloTres-SF-ref {
+    width: 100%;
+    color: #00523d;
+    font-family: 'Manrope', sans-serif;
+    font-size: 2rem;
+    text-align: center; }
+
+main .flex-ref-ref {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  main .flex-ref-ref .caja24-ref {
+    width: 24rem;
+    border: solid 1px #a6c83e;
+    margin: 2rem; }
+    main .flex-ref-ref .caja24-ref .img-ref {
+      width: 100%; }
+  main .flex-ref-ref .flex-info-ref {
+    display: flex;
+    flex-wrap: wrap; }
+    main .flex-ref-ref .flex-info-ref .tituloTres-SF-info-ref {
+      width: 100%;
+      color: #00523d;
+      font-family: 'Manrope', sans-serif;
+      font-size: 1.5rem;
+      text-align: left;
+      padding: 1rem 1rem 0 1rem; }
+    main .flex-ref-ref .flex-info-ref .parrafoDos-SFl-ref {
+      width: 100%;
+      color: #b2b2b2;
+      font-family: 'Manrope', sans-serif;
+      font-size: 1.3rem;
+      font-weight: lighter;
+      text-align: left;
+      padding: 0rem 1rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

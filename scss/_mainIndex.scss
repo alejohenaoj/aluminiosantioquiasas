@@ -1,0 +1,115 @@
+main {
+    .caja-slider {
+        width: 95vw;
+        margin: 1rem auto;
+    }
+    .tituloUno-SF-idx {
+        width: 100%;
+        color: $colVer1;
+        font-family: 'Manrope', sans-serif;
+        font-size: 4rem;
+        text-align: center;
+        padding: 3rem 1rem;
+    }
+    .flex-horMat-idx {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 4rem;
+        .caja24-idx {
+            width: 24rem;
+        }
+        .flex-verMat-idx {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            a {
+                .imgMat {
+                    width: 100%;
+                }
+            }
+            .tituloTres-SF-mat-idx {
+                width: 100%;
+                color: $colVer1;
+                font-family: 'Manrope', sans-serif;
+                font-size: 2rem;
+                text-align: center;
+                padding: 2rem 0 1rem 0;
+            }
+            .parrafo-S-mat {
+                width: 100%;
+                color: $colGri3;
+                font-family: 'Kaisei Opti', serif;
+                font-size: 1.2rem;
+                text-align: justify;
+                padding: 1rem;
+            }
+        }
+    }
+    .destacado-frase-idx {
+        width: 100vw;
+        padding: 8rem 2rem;
+        background-color: $colVer2;
+        .tituloDos-S-fra {
+            width: 100%;
+            color: $colVer1;
+            font-family: 'Kaisei Opti', serif;
+            font-size: 3rem;
+            text-align: center;
+        }
+        .tituloTres-S-fra {
+            width: 100%;
+            color: $colVer1;
+            font-family: 'Kaisei Opti', serif;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    .flex-verCnt-idx {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        .tituloUno-SF-cnt-idx {
+            width: 100%;
+            color: $colVer1;
+            font-family: 'Manrope', sans-serif;
+            font-size: 4rem;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+        .caja55-idx {
+            width: 55vw;
+            margin-bottom: 2rem;
+            .parrafo-S-cnt {
+                width: 100%;
+                color: $colGri3;
+                font-family: 'Kaisei Opti', serif;
+                font-size: 1.2rem;
+                text-align: center;
+            }
+        }
+        .boton-cnt-idx {
+            a {
+                text-decoration: none;
+                width: 100%;
+                color: $colGri3;
+                font-family: 'Kaisei Opti', serif;
+                font-size: 1.2rem;
+                text-align: center;
+                padding: 0 2rem;
+                &:hover {
+                    background-color: $colVer2;
+                    border-radius: 20px;
+                    color: $colGri1;
+                }
+                &:active {
+                    border-radius: 20px;
+                    background-color: $colVer1;
+                    color: $colVer2;
+                }
+            }
+        }
+    }
+}

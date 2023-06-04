@@ -1,61 +1,61 @@
 footer {
-    .pie {
+    .caja-footer {
         margin-top: 2rem;
         width: 100vw;
         padding: 2rem;
-        background-color: #575756;
+        background-color: $colGri1;
     }
-    .flex-horizontal-pie {
+    .flex-horFoo {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         column-gap: 5rem;
-        .caja-18 {
+        .caja18-foo {
             width: 18rem;
-            .imagen {
+            .imgFoo {
                 width: 100%;
             }
-            .parrafoUno-SF {
+            .parrafoUno-SF-foo {
                 width: 100%;
-                color: #dadada;
+                color: $colGri4;
                 font-family: 'Manrope', sans-serif;
                 font-size: 1.2rem;
             }
-            .tituloCuatro-blanco-SF {
+            .tituloCuat-SF-foo {
                 width: 100%;
-                color: #dadada;
+                color: $colGri4;
                 font-family: 'Manrope', sans-serif;
                 font-size: 1.5rem;
                 padding: 0 0 1rem 0;
             }
-            .parrafoDos-SF-bold {
+            .parrafoDos-SFb-foo {
                 width: 100%;
-                color: #dadada;
+                color: $colGri4;
                 font-family: 'Manrope', sans-serif;
                 font-size: 1.2rem;
                 font-weight: bold;
             }
-            .parrafoDos-SF-light {
+            .parrafoDos-SFl-foo {
                 width: 100%;
-                color: #dadada;
+                color: $colGri4;
                 font-family: 'Manrope', sans-serif;
                 font-size: 1.2rem;
                 font-weight: lighter;
             }
             .navfooter {
                 li {
-                list-style-type: none;
-                padding-bottom: 2rem;
-                text-align: justify;
-                a {
-                    color: #dadada;
-                    font-size: 1.5rem;
-                    &:hover {
-                        color: #a6c83e;
+                    list-style-type: none;
+                    padding-bottom: 2rem;
+                    text-align: justify;
+                    a {
+                        color: $colGri4;
+                        font-size: 1.5rem;
+                        &:hover {
+                            color: $colVer2;
                         }
-                    }
-                    &:active {
-                        color: #dadada;
+                        &:active {
+                            color: $colGri4;
+                        }
                     }
                 }
             }

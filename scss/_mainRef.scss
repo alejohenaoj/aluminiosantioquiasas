@@ -1,0 +1,48 @@
+main {
+    .destacado-tit-ref {
+        width: 100vw;
+        padding: 4rem 1rem;
+        background-color: $colVer2;
+        .tituloTres-SF-ref {
+            width: 100%;
+            color: $colVer1;
+            font-family: 'Manrope', sans-serif;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    .flex-ref-ref {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .caja24-ref {
+            width: 24rem;
+            border: solid 1px $colVer2;
+            margin: 2rem;
+            .img-ref {
+                width: 100%;
+            }
+        }
+        .flex-info-ref {
+            display: flex;
+            flex-wrap: wrap;
+            .tituloTres-SF-info-ref {
+                width: 100%;
+                color: $colVer1;
+                font-family: 'Manrope', sans-serif;
+                font-size: 1.5rem;
+                text-align: left;
+                padding: 1rem 1rem 0 1rem;
+            }
+            .parrafoDos-SFl-ref {
+                width: 100%;
+                color: #b2b2b2;
+                font-family: 'Manrope', sans-serif;
+                font-size: 1.3rem;
+                font-weight: lighter;
+                text-align: left;
+                padding: 0rem 1rem;
+            }
+        }
+    }
+}

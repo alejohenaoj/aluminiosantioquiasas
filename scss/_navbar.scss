@@ -1,0 +1,47 @@
+header {
+    .caja-navbar { 
+        width: 90vw;
+        margin: 1rem auto;
+    }
+    .navbar {
+        .container-fluid {
+            .navbar-brand {
+                img {
+                    height: 5rem;
+                }
+            }
+            .navbar-toggler {
+                border: none;
+                img {
+                    height: 5rem;
+                }
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+            .collapse {
+                .navbar-nav {
+                    li {
+                        padding: 1rem;
+                    }
+                    a {
+                        font-family: 'Manrope', sans-serif;
+                        font-size: 1.2rem;
+                        color: $colGri3;
+                        padding: 0 1rem;
+                        &:hover {
+                            border-radius: 20px;
+                            background-color: $colVer2;
+                            color: $colGri1;
+                        }
+                        &:active {
+                            border-radius: 20px;
+                            background-color: $colVer1;
+                            color: $colVer2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

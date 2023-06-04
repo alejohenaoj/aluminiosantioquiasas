@@ -1,0 +1,56 @@
+main {
+    .caja75-QSo {
+        width: 75vw;
+        margin: 1rem auto;
+    }
+    .flex-horTit-QSo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 4rem;
+        .tituloDos-S-Tit-QSo {
+            width: 100%;
+            color: $colVer1;
+            font-family: 'Kaisei Opti', serif;
+            font-size: 3rem;
+            text-align: center;
+        }
+        .caja70-imgEqu {
+            width: 70vw;
+            .img-equipo {
+                width: 100%;
+                margin: 1.5rem auto;
+            }
+        }
+        .flex-horMisVis-QSo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            column-gap: 4rem;
+            .caja30-misVis-QSo {
+                width: 30rem;
+            }
+            .flex-verMisVis-QSo {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+                .tituloTres-SF-misVis {
+                    width: 100%;
+                    color: $colVer1;
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 2rem;
+                    text-align: center;
+                }
+                .parrafo-S-misVis {
+                    width: 100%;
+                    color: $colGri3;
+                    font-family: 'Kaisei Opti', serif;
+                    font-size: 1.2rem;
+                    text-align: justify;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
