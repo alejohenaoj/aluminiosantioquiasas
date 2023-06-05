@@ -29,6 +29,20 @@ header .navbar .container-fluid .collapse .navbar-nav a {
     background-color: #00523d;
     color: #a6c83e; }
 
+@media screen and (max-width: 480px) {
+  header .caja-navbar {
+    width: 95vw;
+    margin: 0.5rem auto; }
+  header .navbar .container-fluid .navbar-brand img {
+    height: 3rem; }
+  header .navbar .container-fluid .navbar-toggler {
+    border: none; }
+    header .navbar .container-fluid .navbar-toggler img {
+      height: 3rem; }
+  header .navbar .container-fluid .collapse .navbar-nav a {
+    font-size: 0.8rem;
+    color: #b2b2b2; } }
+
 footer .caja-footer {
   margin-top: 2rem;
   width: 100vw;
@@ -78,6 +92,24 @@ footer .flex-horFoo {
           color: #a6c83e; }
         footer .flex-horFoo .caja18-foo .navfooter li a:active {
           color: #dadada; }
+
+@media screen and (max-width: 480px) {
+  footer .caja-footer {
+    margin-top: 1rem;
+    padding: 1rem; }
+  footer .flex-horFoo .caja18-foo .parrafoUno-SF-foo {
+    font-size: 0.8rem;
+    padding-top: 1rem; }
+  footer .flex-horFoo .caja18-foo .tituloCuat-SF-foo {
+    font-size: 1rem; }
+  footer .flex-horFoo .caja18-foo .parrafoDos-SFb-foo {
+    font-size: 1rem; }
+  footer .flex-horFoo .caja18-foo .parrafoDos-SFl-foo {
+    font-size: 0.8rem; }
+  footer .flex-horFoo .caja18-foo .navfooter li {
+    padding-bottom: 0.5rem; }
+    footer .flex-horFoo .caja18-foo .navfooter li a {
+      font-size: 1rem; } }
 
 main .caja-slider {
   width: 75vw;
@@ -178,14 +210,33 @@ main .flex-verCnt-idx {
       background-color: #00523d;
       color: #a6c83e; }
 
-.tran2 {
-  background-color: blueviolet;
-  transition: all 3s; }
-
-.tran2:hover {
-  width: 200px;
-  background-color: #2fff00;
-  transform: scale(1.2); }
+@media screen and (max-width: 480px) {
+  main .caja-slider {
+    width: 95vw;
+    margin: 0.5rem auto; }
+  main .tituloUno-SF-idx {
+    font-size: 2rem;
+    padding: 0.5rem; }
+  main .flex-horMat-idx .flex-verMat-idx .tituloTres-SF-mat-idx {
+    font-size: 2rem;
+    padding-top: 1rem; }
+  main .flex-horMat-idx .flex-verMat-idx .parrafo-S-mat {
+    font-size: 1rem;
+    padding: 0.5; }
+  main .destacado-frase-idx {
+    padding: 1.5rem; }
+    main .destacado-frase-idx .tituloDos-S-fra {
+      font-size: 2rem; }
+    main .destacado-frase-idx .tituloTres-S-fra {
+      font-size: 1.5rem; }
+  main .flex-verCnt-idx .tituloUno-SF-cnt-idx {
+    font-size: 2rem;
+    padding: 1rem; }
+  main .flex-verCnt-idx .caja55-idx {
+    width: 90vw;
+    margin-bottom: 0; }
+    main .flex-verCnt-idx .caja55-idx .parrafo-S-cnt {
+      font-size: 1rem; } }
 
 main .caja75-QSo {
   width: 75vw;

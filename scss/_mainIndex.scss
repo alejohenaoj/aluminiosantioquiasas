@@ -116,13 +116,48 @@ main {
             }
         }
     }
-}
-.tran2{
-    background-color: blueviolet;
-    transition: all 3s;
-}
-.tran2:hover{
-    width: 200px;
-    background-color: rgb(47, 255, 0);
-    transform: scale(1.2);
+    @media screen and (max-width: 480px) {
+        .caja-slider {
+            width: 95vw;
+            margin: 0.5rem auto;
+        }
+        .tituloUno-SF-idx {
+            font-size: 2rem;
+            padding: 0.5rem;
+        }
+        .flex-horMat-idx {
+            .flex-verMat-idx {
+                .tituloTres-SF-mat-idx {
+                    font-size: 2rem;
+                    padding-top: 1rem;
+                }
+                .parrafo-S-mat {
+                    font-size: 1rem;
+                    padding: 0.5;
+                }
+            }
+        }
+        .destacado-frase-idx {
+            padding: 1.5rem;
+            .tituloDos-S-fra {
+                font-size: 2rem;
+            }
+            .tituloTres-S-fra {
+                font-size: 1.5rem;
+            }
+        }
+        .flex-verCnt-idx {
+            .tituloUno-SF-cnt-idx {
+                font-size: 2rem;
+                padding: 1rem;
+            }
+            .caja55-idx {
+                width: 90vw;
+                margin-bottom: 0;
+                .parrafo-S-cnt {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
 }

@@ -61,4 +61,35 @@ footer {
             }
         }
     }
+    @media screen and (max-width: 480px) {
+        .caja-footer {
+            margin-top: 1rem;
+            padding: 1rem;
+        }
+        .flex-horFoo {
+            .caja18-foo {
+                .parrafoUno-SF-foo {
+                    font-size: 0.8rem;
+                    padding-top: 1rem;
+                }
+                .tituloCuat-SF-foo {
+                    font-size: 1rem;
+                }
+                .parrafoDos-SFb-foo {
+                    font-size: 1rem;
+                }
+                .parrafoDos-SFl-foo {
+                    font-size: 0.8rem;
+                }
+                .navfooter {
+                    li {
+                        padding-bottom: 0.5rem;
+                        a {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

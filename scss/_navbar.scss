@@ -44,4 +44,33 @@ header {
             }
         }
     }
+    @media screen and (max-width: 480px) {
+        .caja-navbar { 
+            width: 95vw;
+            margin: 0.5rem auto;
+        }
+        .navbar {
+            .container-fluid {
+                .navbar-brand {
+                    img {
+                        height: 3rem;
+                    }
+                }
+                .navbar-toggler {
+                    border: none;
+                    img {
+                        height: 3rem;
+                    }
+                }
+                .collapse {
+                    .navbar-nav {
+                        a {
+                            font-size: 0.8rem;
+                            color: $colGri3;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
