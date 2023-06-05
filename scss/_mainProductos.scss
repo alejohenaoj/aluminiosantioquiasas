@@ -18,6 +18,10 @@ main {
         column-gap: 4rem;
         .caja-pdu {
             border: solid 1px $colVer2;
+            transition: all 1s;
+            &:hover {
+                transform: scale(1.1);
+            }
         }
         .card-fam-pdu {
             width: 20rem;

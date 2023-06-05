@@ -27,6 +27,10 @@ main {
             a {
                 .imgMat {
                     width: 100%;
+                    transition: all 1s;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                 }
             }
             .tituloTres-SF-mat-idx {
@@ -112,4 +116,13 @@ main {
             }
         }
     }
+}
+.tran2{
+    background-color: blueviolet;
+    transition: all 3s;
+}
+.tran2:hover{
+    width: 200px;
+    background-color: rgb(47, 255, 0);
+    transform: scale(1.2);
 }

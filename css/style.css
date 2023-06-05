@@ -104,7 +104,10 @@ main .flex-horMat-idx {
     flex-direction: column;
     align-items: center; }
     main .flex-horMat-idx .flex-verMat-idx a .imgMat {
-      width: 100%; }
+      width: 100%;
+      transition: all 1s; }
+      main .flex-horMat-idx .flex-verMat-idx a .imgMat:hover {
+        transform: scale(1.1); }
     main .flex-horMat-idx .flex-verMat-idx .tituloTres-SF-mat-idx {
       width: 100%;
       color: #00523d;
@@ -175,6 +178,15 @@ main .flex-verCnt-idx {
       background-color: #00523d;
       color: #a6c83e; }
 
+.tran2 {
+  background-color: blueviolet;
+  transition: all 3s; }
+
+.tran2:hover {
+  width: 200px;
+  background-color: #2fff00;
+  transform: scale(1.2); }
+
 main .caja75-QSo {
   width: 75vw;
   margin: 1rem auto; }
@@ -194,7 +206,10 @@ main .flex-horTit-QSo {
     width: 70vw; }
     main .flex-horTit-QSo .caja70-imgEqu .img-equipo {
       width: 100%;
-      margin: 1.5rem auto; }
+      margin: 1.5rem auto;
+      transition: all 1s; }
+      main .flex-horTit-QSo .caja70-imgEqu .img-equipo:hover {
+        scale: 1.1; }
   main .flex-horTit-QSo .flex-horMisVis-QSo {
     display: flex;
     flex-wrap: wrap;
@@ -290,7 +305,10 @@ main .flex-horPdu-pdu {
   justify-content: center;
   column-gap: 4rem; }
   main .flex-horPdu-pdu .caja-pdu {
-    border: solid 1px #a6c83e; }
+    border: solid 1px #a6c83e;
+    transition: all 1s; }
+    main .flex-horPdu-pdu .caja-pdu:hover {
+      transform: scale(1.1); }
   main .flex-horPdu-pdu .card-fam-pdu {
     width: 20rem;
     margin-top: 2rem; }
@@ -327,7 +345,10 @@ main .flex-ref-ref {
   main .flex-ref-ref .caja24-ref {
     width: 24rem;
     border: solid 1px #a6c83e;
-    margin: 2rem; }
+    margin: 2rem;
+    transition: all 1s; }
+    main .flex-ref-ref .caja24-ref:hover {
+      transform: scale(1.1); }
     main .flex-ref-ref .caja24-ref .img-ref {
       width: 100%; }
   main .flex-ref-ref .flex-info-ref {

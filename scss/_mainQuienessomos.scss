@@ -20,6 +20,10 @@ main {
             .img-equipo {
                 width: 100%;
                 margin: 1.5rem auto;
+                transition: all 1s;
+                &:hover {
+                    scale: (1.1);
+                }
             }
         }
         .flex-horMisVis-QSo {
