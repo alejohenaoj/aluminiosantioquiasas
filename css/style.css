@@ -287,6 +287,22 @@ main .flex-horTit-QSo {
         text-align: justify;
         padding: 1rem; }
 
+@media screen and (max-width: 480px) {
+  main .caja75-QSo {
+    width: 95vw;
+    margin: 0.5rem auto; }
+  main .flex-horTit-QSo .tituloDos-S-Tit-QSo {
+    font-size: 2rem; }
+  main .flex-horTit-QSo .caja70-imgEqu {
+    width: 95vw; }
+    main .flex-horTit-QSo .caja70-imgEqu .img-equipo {
+      width: 100%;
+      margin: 0.5rem auto; }
+  main .flex-horTit-QSo .flex-horMisVis-QSo .caja30-misVis-QSo {
+    width: 21rem; }
+  main .flex-horTit-QSo .flex-horMisVis-QSo .flex-verMisVis-QSo .parrafo-S-misVis {
+    font-size: 1rem; } }
+
 main .destacado-tit-cnt {
   width: 100vw;
   padding: 4rem 1rem;
@@ -339,6 +355,26 @@ main .grilla-cnt {
     font-weight: lighter;
     text-align: left; }
 
+@media screen and (max-width: 480px) {
+  main .destacado-tit-cnt {
+    padding: 1rem; }
+    main .destacado-tit-cnt .tituloTres-SF-cnt {
+      font-size: 2rem; }
+  main .destacado-cnt {
+    width: 100vw;
+    padding: 1rem; }
+  main .grilla-cnt {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 0.8fr 1fr;
+    grid-template-rows: repeat(4, 0.5fr);
+    grid-template-areas: "t1"  "p1" "t2"  "p2" "t3"  "p3" "t4"  "p4"; }
+    main .grilla-cnt .tituloTres-SF-cnt-cnt {
+      font-size: 1rem;
+      text-align: left; }
+    main .grilla-cnt .parrafoDos-SFl-cnt {
+      font-size: 1rem; } }
+
 main .destacado-tit-pdu {
   width: 100vw;
   padding: 4rem 1rem;
@@ -377,6 +413,16 @@ main .flex-horPdu-pdu {
       font-size: 1.5rem;
       text-align: center;
       padding: 1rem; }
+
+@media screen and (max-width: 480px) {
+  main .destacado-tit-pdu {
+    padding: 1rem; }
+    main .destacado-tit-pdu .tituloTres-SF-pdu {
+      font-size: 2rem; }
+  main .flex-horPdu-pdu {
+    column-gap: 1rem; }
+    main .flex-horPdu-pdu .caja-pdu {
+      margin: 1rem; } }
 
 main .destacado-tit-ref {
   width: 100vw;
@@ -420,6 +466,21 @@ main .flex-ref-ref {
       font-weight: lighter;
       text-align: left;
       padding: 0rem 1rem; }
+
+@media screen and (max-width: 480px) {
+  main .destacado-tit-ref {
+    padding: 1rem; }
+    main .destacado-tit-ref .tituloTres-SF-ref {
+      font-size: 2rem; }
+  main .flex-ref-ref .caja24-ref {
+    margin: 1rem; }
+  main .flex-ref-ref .flex-info-ref .tituloTres-SF-info-ref {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0.5rem 0.5rem 0 0.5rem; }
+  main .flex-ref-ref .flex-info-ref .parrafoDos-SFl-ref {
+    font-size: 1rem;
+    padding: 0rem 0.5rem; } }
 
 * {
   margin: 0;

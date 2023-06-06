@@ -57,4 +57,32 @@ main {
             }
         }
     }
+    @media screen and (max-width: 480px) {
+        .caja75-QSo {
+            width: 95vw;
+            margin: 0.5rem auto;
+        }
+        .flex-horTit-QSo {
+            .tituloDos-S-Tit-QSo {
+                font-size: 2rem;
+            }
+            .caja70-imgEqu {
+                width: 95vw;
+                .img-equipo {
+                    width: 100%;
+                    margin: 0.5rem auto;
+                }
+            }
+            .flex-horMisVis-QSo {
+                .caja30-misVis-QSo {
+                    width: 21rem;
+                }
+                .flex-verMisVis-QSo {
+                    .parrafo-S-misVis {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
 }
