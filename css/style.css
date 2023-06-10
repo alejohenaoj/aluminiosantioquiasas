@@ -58,6 +58,8 @@ footer .flex-horFoo {
     width: 18rem; }
     footer .flex-horFoo .caja18-foo .imgFoo {
       width: 100%; }
+    footer .flex-horFoo .caja18-foo .imgFoo-redes {
+      height: 4.3rem; }
     footer .flex-horFoo .caja18-foo .parrafoUno-SF-foo {
       width: 100%;
       color: #dadada;
@@ -324,7 +326,7 @@ main .grilla-cnt {
   gap: 1.5rem;
   grid-template-columns: 0.8fr 1fr;
   grid-template-rows: repeat(4, 0.5fr);
-  grid-template-areas: "t1 p1" "t2 p2" "t3 p3" "t4 p4"; }
+  grid-template-areas: "t1 p1" "t2 p2" "t3 p3" "t4 p4"; }
   main .grilla-cnt .t1 {
     grid-area: t1; }
   main .grilla-cnt .t2 {
@@ -368,7 +370,7 @@ main .grilla-cnt {
     gap: 0.5rem;
     grid-template-columns: 0.8fr 1fr;
     grid-template-rows: repeat(4, 0.5fr);
-    grid-template-areas: "t1"  "p1" "t2"  "p2" "t3"  "p3" "t4"  "p4"; }
+    grid-template-areas: "t1"  "p1" "t2"  "p2" "t3"  "p3" "t4"  "p4"; }
     main .grilla-cnt .tituloTres-SF-cnt-cnt {
       font-size: 1rem;
       text-align: left; }
