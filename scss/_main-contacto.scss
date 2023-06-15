@@ -11,6 +11,15 @@ main {
             text-align: center;
         }
     }
+    .caja-form {
+        width: 75vw;
+        margin: 3rem auto;
+        .col-12 {
+            .boton_form {
+                background-color: $colVer2;
+            }
+        }
+    }
     .destacado-cnt {
         width: 100vw;
         padding: 4rem 1rem 2rem 1rem;

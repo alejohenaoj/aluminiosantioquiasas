@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 header .caja-navbar {
   width: 90vw;
   margin: 1rem auto; }
@@ -316,6 +321,12 @@ main .destacado-tit-cnt {
     font-size: 2rem;
     text-align: center; }
 
+main .caja-form {
+  width: 75vw;
+  margin: 3rem auto; }
+  main .caja-form .col-12 .boton_form {
+    background-color: #a6c83e; }
+
 main .destacado-cnt {
   width: 100vw;
   padding: 4rem 1rem 2rem 1rem;
@@ -483,8 +494,3 @@ main .flex-ref-ref {
   main .flex-ref-ref .flex-info-ref .parrafoDos-SFl-ref {
     font-size: 1rem;
     padding: 0rem 0.5rem; } }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }

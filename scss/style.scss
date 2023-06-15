@@ -1,4 +1,5 @@
 @import "var";
+@import "reset";
 @import "navbar";
 @import "footer";
 @import "main-index";
@@ -6,8 +7,3 @@
 @import "main-contacto";
 @import "main-productos";
 @import "main-ref";
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
